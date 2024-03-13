@@ -1,0 +1,50 @@
+﻿img.sana-logo {
+    width: 150px;
+}
+.container-flex-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-nav-position {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+.highighted {
+    color: darkblue;
+    font-size: 20px;
+    margin-top: 20px;
+}
+body.user-login {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form.user-login {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+form.user-login input[type="text"],
+form.user-login input[type="password"],
+form.user-login input[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form.user-login input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
